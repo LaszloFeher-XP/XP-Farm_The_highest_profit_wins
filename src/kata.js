@@ -1,7 +1,7 @@
 class Kata {
 
   minMax(arr) {
-    return [1, 1];
+    return [Math.min(...arr), Math.max(...arr)];
   }
 }
 
