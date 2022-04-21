@@ -15,6 +15,11 @@ describe('First story', () => {
     const kata = new Kata();
     expect(kata.minMax([2334454, 5])).toStrictEqual([5, 2334454]);
   });
+
+  test('GIVEN [200,4,6,8,10,2]  WHEN runs logic THEN returns [2,200]', () => {
+    const kata = new Kata();
+    expect(kata.minMax([200, 4, 6, 8, 10, 2])).toStrictEqual([2, 200]);
+  });
 });
 
 
